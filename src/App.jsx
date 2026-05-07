@@ -8,7 +8,7 @@ export default function App() {
 
       {/* HERO */}
       <section
-        className="relative min-h-screen flex items-center justify-center px-6 bg-cover bg-center"
+        className="relative min-h-screen flex items-center justify-center px-6 bg-cover bg-center md:bg-[center_top_15px]"
         style={{
           backgroundImage: `url(${barberBg})`,
         }}
