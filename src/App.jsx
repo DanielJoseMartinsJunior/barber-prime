@@ -1,6 +1,10 @@
+import Navbar from "./components/Navbar";
+
 export default function App() {
   return (
     <main className="bg-[#0a0a0a] text-white min-h-screen">
+      
+      <Navbar />
 
       {/* HERO */}
       <section className="min-h-screen flex items-center justify-center px-6">
